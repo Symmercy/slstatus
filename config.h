@@ -66,6 +66,7 @@ static const struct arg args[] = {
 	//{ datetime, "%s",           "%F %T" },
 	//{ wifi_perc, "W: (%3s%% on ", "wlp8s0" },
     //{ netspeed_rx, "%sB/s  ", "enp0s3" },
+        { run_command,	"| %s","pamixer --get-volume"},
         { datetime,  "| %s|", "%r"	      },
 	{ cpu_perc,  " %s%|", "NULL"	      },
         { ram_perc,  " %s%|",  "NULL"	      },
